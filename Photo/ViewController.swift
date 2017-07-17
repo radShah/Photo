@@ -55,7 +55,21 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
         }
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [NSObject : AnyObject]?) {
+//    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [NSObject : AnyObject]?) {
+//        switch UIDevice.currentDevice().userInterfaceIdiom {
+//        case .Phone:
+//            self.dismissViewControllerAnimated(true, completion: nil)
+//            break
+//        case .Pad:
+//            pop?.dismissPopoverAnimated(true)
+//            break
+//        default:
+//            break
+//        }
+//        self.imageView.image = image
+//    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         switch UIDevice.currentDevice().userInterfaceIdiom {
         case .Phone:
             self.dismissViewControllerAnimated(true, completion: nil)
@@ -66,6 +80,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         default:
             break
         }
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
         self.imageView.image = image
     }
     

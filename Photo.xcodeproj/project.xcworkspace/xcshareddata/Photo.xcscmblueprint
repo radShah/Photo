@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "96CC70E394E56607AD531B4E85FF1E2FE3A49932",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "96CC70E394E56607AD531B4E85FF1E2FE3A49932" : 9223372036854775807,
+    "890E38FF24D2B865DEB36041F08281E43980F9A5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ABA7651F-13AD-4484-B75A-D1A8B9BCF474",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "96CC70E394E56607AD531B4E85FF1E2FE3A49932" : "Photo\/",
+    "890E38FF24D2B865DEB36041F08281E43980F9A5" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Photo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Photo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/radShah\/iOSThoughtWorksHackathon",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "890E38FF24D2B865DEB36041F08281E43980F9A5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/radShah\/Photo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96CC70E394E56607AD531B4E85FF1E2FE3A49932"
+    }
+  ]
+}
